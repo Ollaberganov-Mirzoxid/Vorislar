@@ -1,0 +1,5 @@
+.ijara-mulk .ijara, .ijara-mulk .mulk{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

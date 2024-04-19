@@ -55,11 +55,12 @@
     padding: 10px;
     border-radius: 5px;
 }
-/*O'chirish va Tahrirlash tugmalar uchun CSS*/
+/*O'chirish , Tahrirlash va Ko'rish tugmalar uchun CSS*/
 .edit-delete{
     margin-top: 30px;
 }
-.edit-delete a{font-weight: bold;
+.edit-delete a{
+    font-weight: bold;
     text-decoration: none;
     border: 1px solid black;
     padding: 10px;
@@ -71,6 +72,19 @@
 .delete{
     background-color: red;
     color: white;
+}
+.view-but{
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 0;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+.view-but:hover{
+    cursor: pointer;
 }
 
 @media (max-width: 500px) {
