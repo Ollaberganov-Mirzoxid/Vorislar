@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="uz">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" /> 
+        <title>E'lonlar / Ijaralar</title>
+    </head>
+    <body>
+      <header>
+        <div class="navbar">
+            <nav>
+              <input type="checkbox" id="show-search">
+              <input type="checkbox" id="show-menu">
+              <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+              <div class="content">
+                <div class="logo">
+                  <a href="#">Ko'chmas mulklar savdosi va ijarasi</a>
+                </div>
+                <ul class="links">
+                  <li>
+                    <a href="../index.html">Asosiy</a>
+                  </li>
+                  <li>
+                    <a href="#" class="desktop-link">E'lonlar</a>
+                    <input type="checkbox" id="show-features">
+                    <label for="show-features">E'lonlar</label>
+                    <ul>
+                      <li><a href="ijaralar.html">Ijaralar</a></li>
+                      <li><a href="mulklar.html">Sotiladigan mulklar</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#" class="desktop-link">E'lon Berish</a>
+                    <input type="checkbox" id="show-services">
+                    <label for="show-services">E'lon Berish</label>
+                    <ul>
+                      <li><a href="add_ijaralar.html">Ijaralar</a></li>
+                      <li><a href="add_mulklar.html">Sotiladigan mulklar</a></li>
+                    </ul>
+                  </li>    
+                  <li class="name">
+                    <a href="#" class="desktop-link"><i class="user fas fa-user"></i>Ollaberganov Mirzoxid</a>
+                    <input type="checkbox" id="show-setings">
+                    <label for="show-setings"><i class="user fas fa-user"></i>Ollaberganov Mirzoxid</label>
+                    <ul>
+                      <li><a href="profil.html"><i class="fas fa-edit"></i>Profil</a></li>
+                      <li><a style="color: red;" href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i>Chiqish</a></li>
+                    </ul>
+                  </li>   
+                </ul>
+              </div>
+              <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+              <form action="#" class="search-box">
+                <input type="text" placeholder="Qidirish..." required>
+                <button type="submit" class="go-icon">
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </button>
+              </form>
+            </nav>
+          </div>
+      </header>
+        <section>
+              <hr>
+            <h1>Ijaraga beriladigan uylar</h1>
+              <hr>
+              <div class = "ijara-mulk">
+                <div class="ijara">
+                  <div class="img-title">
+                      <img src="../assets/img/img1.webp" alt="">
+                      <div>
+                        <div class="manzil">
+                          <p><b>Manzil:</b> МАШАЛ 2-СОН МУЗЫКА МАКТАБ ЁНИДАГИ ЯНГИ ДОМДА 3 ХОНАЛИ</p>
+                        </div>
+                      </div>
+                      <div class="btns">
+                        <div class="narx">
+                          <p><b>Narx:</b> 250 USD</p>                      
+                        </div>
+                        <div class="view">
+                          <button style="color: green;" type="submit" class="view" onclick="openPopur()"><b>To'liq ko'rish</b></button>
+                        </div>
+                      </div>
+                  </div>
+  
+  <!-- View uchun HTML kod -->
+                  <div class="img-title-view" id="img-title-view">
+                    <div class="images">
+                      <img src="../assets/img/img1.webp" alt="">
+                      <img src="../assets/img/img1.webp" alt="">
+                      <img src="../assets/img/img1.webp" alt="">
+                      <img src="../assets/img/img1.webp" alt="">
+                    </div>
+                    <div class="title1">
+                      <div class="malumot">
+                        <p>
+                          <b>Ma'lumot: </b>КАНДИЦАНЕР, КИР МАШИН,
+                          ХАЛАДЕЛНИК, ТИЛВИЗОР,
+                          ШИКОФЛАР БОР ГИЛАМ БН 
+                          ХАММА ЙЕРИ ТУШАЛГАН 
+                          ХАММА ШАРОИТЛАР БОР.
+                        </p>
+                      </div>
+                      <div>
+                        <div class="manzil">
+                          <p><b>Manzil: </b>МАШАЛ 2-СОН МУЗЫКА МАКТАБ ЁНИДАГИ ЯНГИ ДОМДА 3 ХОНАЛИ</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="fio">
+                      <p><b>F.I.O: </b>Ollashukurov Xursand</p>
+                    </div>
+                    <div class="telefon">
+                      <p><b>Telefon raqam: </b>+998881504100</p>
+                    </div>
+                    <div class="telegram">
+                      <p><b>Telegram nik: </b>+998771004570</p>
+                    </div>
+                    <div class="btns">
+                      <div class="narx">
+                        <p><b>Narx:</b> 250 USD</p>                      
+                      </div>
+                      <div class="view">
+                        <button type="button" class="close-view" onclick="closePopur()">Yopish</button>
+                      </div>
+                    </div>
+                </div>
+  
+  
+                </div>
+              </div>
+          </section>
+        <footer>
+            2024 Sizning Saytingiz. Barcha huquqlar himoyalangan.
+        </footer>
+        <script src="../assets/js/script.js"></script>
+    </body>
+</html>
